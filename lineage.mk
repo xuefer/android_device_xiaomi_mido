@@ -14,19 +14,23 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME := oxygen
-
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-$(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_NAME := lineage_oxygen
-BOARD_VENDOR := Xiaomi
-
-# Boot animation
+# Device display
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
+
+# Device identifier
+PRODUCT_BRAND := Xiaomi
+PRODUCT_DEVICE := oxygen
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_MODEL := Mi Max 2
+PRODUCT_NAME := lineage_oxygen
+BOARD_VENDOR := Xiaomi
+PRODUCT_RELEASE_NAME := oxygen
 
 # CMHW
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw
