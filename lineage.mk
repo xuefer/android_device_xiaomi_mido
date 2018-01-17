@@ -24,8 +24,6 @@ $(call inherit-product, device/xiaomi/oxygen/full_oxygen.mk)
 PRODUCT_NAME := lineage_oxygen
 BOARD_VENDOR := Xiaomi
 
-PRODUCT_DEFAULT_LOCALE := zh_CN
-
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
