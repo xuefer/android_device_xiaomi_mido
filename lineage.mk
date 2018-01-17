@@ -33,7 +33,6 @@ BOARD_USES_CYANOGEN_HARDWARE := true
 BOARD_HARDWARE_CLASS += \
     hardware/cyanogen/cmhw
 
-PRODUCT_PACKAGES += Prevent
 WITH_SU := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
