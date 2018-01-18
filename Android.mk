@@ -20,9 +20,6 @@ LOCAL_PATH := $(call my-dir)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-# Prebuilt kernel
-$(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
-
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := wifi_symlinks
