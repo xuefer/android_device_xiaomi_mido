@@ -19,5 +19,5 @@
 | Release Date            | May 2017                          |
 
 ## Device picture
-![MI Max 2](http://2e.zol-img.com.cn/product/183/36/ceSEFCf5fGGwg.jpg "Xiaomi MAX 2")
+![Mi MAX 2](http://i01.appmifile.com/webfile/globalimg/29/B8388A52-854A-94A5-D386-7F675F467FE1.jpg "Mi MAX 2")
 
