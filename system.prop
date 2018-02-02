@@ -49,21 +49,11 @@ ro.btconfig.vendor=qcom
 ro.btconfig.chip=WCN3680
 
 # Camera
-# Additional buffers shared between Camera and Video
-vidc.enc.dcvs.extra-buff-count=2
-
-#properties for limiting preview size in camera
-camera.display.umax=1920x1080
-camera.display.lmax=1280x720
+persist.camera.HAL3.enabled=1
 
 #enable camera software RNR
 persist.camera.feature.cac=1
 persist.camera.imglib.cac3=2
-
-#low power mode for camera
-camera.lowpower.record.enable=1
-#force HAL1 for below packages
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk
 
 # Cne
 persist.cne.feature=1
